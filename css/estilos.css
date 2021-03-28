@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400;1,500&display=swap');
+
+:root{
+    --color1: -30px -20px rgba(0,0,0,.1)inset;
+    --color2: -70px -40px rgba(0,0,0,.1)inset;
+    --color3: 5px 5px rgba(225,225,225,.2)inset;
+    --color5: -webkit-radial-gradient(rgb(139, 212, 255) 10%, #80caf5 25%, #4dafff 80%);
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background:-webkit-radial-gradient(#dfb6c4 10%, #dfb6c4 25%, #dfb6c4 80%);
+    text-align: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 30px;
+    color: #000000;
+    
+}
+
+
+
+.nubes, .mapa{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.nubes{
+    height: 220px;
+    width: 220px;
+}
+
+.nubes img{
+    position: relative;
+    top: 78px;
+    z-index: 20;
+}
+
+.mapa{
+    background: url(../img/mapa.png);
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: var(--color1),
+                var(--color2),
+                var(--color3);
+    -webkit-animation: ola 4s linear infinite;            
+}
+
+
+.comentario{
+    background:url(../img/kisspng-cherry-blossom-cherry-tree-branches-5a840d4ab6da39.988632061518603594749.png);
+    padding: 20px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 6px;
+    background-size: cover;
+    
+}
+
+a{
+    text-decoration: none;
+    height: 45px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+@-webkit-keyframes ola{
+    from{
+        background-position: left center;
+
+    }
+    to{
+        background-position: -396px center;
+
+    }
+}

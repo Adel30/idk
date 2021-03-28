@@ -1,0 +1,25 @@
+html, body{
+    background:-webkit-radial-gradient(#dfb6c4 10%, #dfb6c4 25%, #dfb6c4 80%);
+    text-align: center;
+    align-items: center;}
+
+.inicio{
+    background:url(../img/kisspng-cherry-blossom-cherry-tree-branches-5a840d4ab6da39.988632061518603594749.png);
+    padding: 20px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 6px;
+    background-size: cover;
+    
+}
+
+a{
+    text-decoration: none;
+    height: 45px;
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: white;
+}
